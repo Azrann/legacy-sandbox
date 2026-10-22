@@ -1,61 +1,63 @@
+**Languages:** [English](README.md) · [Español](README.es.md)
+
 # legacy-sandbox
 
-Pequeños archivos de prueba históricos.
+Small historical test files.
 
 <!-- BEGIN project-context -->
 
-## Antigüedad y evidencia
+## Historical dates and evidence
 
-**Año de referencia de esta versión: 2016.** Se toma el archivo de código o configuración más reciente con una fecha histórica recuperable; no se ha podido confirmar la fecha exacta de creación.
+**Reference year for this version: 2016.** This uses the most recent source or configuration file with a recoverable historical date; the exact creation date could not be confirmed.
 
-- Archivo más reciente datable: **2016-07-09**, [`testa/miArchivo.txt`](testa/miArchivo.txt); fecha del commit que modificó el archivo, recuperada del Git local.
-- Primer registro entre los repositorios Git originales incluidos: **2016-07-09**. Puede corresponder a una importación; no prueba cuándo se escribió por primera vez.
+- Most recent datable file: **2016-07-09**, [`testa/miArchivo.txt`](testa/miArchivo.txt); date of the commit modifying the file, recovered from local Git history.
+- Earliest record among the original Git repositories included: **2016-07-09**. This may be an import and does not establish when the code was first written.
 
-Se descartaron las marcas de tiempo de la copia de octubre de 2026 y los documentos generados durante esta revisión. Las fechas recuperables no garantizan que no existan cambios posteriores sin datar.
+October 2026 copy timestamps and documents generated during this review were excluded. Recoverable dates do not guarantee that there are no later, undated changes.
 
-Años de referencia por componente (archivo más reciente datable):
+Reference years by component (most recent datable file):
 
-| Componente | Año |
+| Component | Year |
 | --- | --- |
 | [`testa`](testa/) | 2016 |
 | [`testb`](testb/) | 2016 |
 
-## Por qué merece la pena mirarlo
+## Why this is worth exploring
 
-Conserva dos experimentos mínimos de repositorio con archivos de texto. Su valor es de archivo y aprendizaje de Git; no hay una aplicación con lógica propia que destacar.
+Preserves two minimal repository experiments with text files. Their value is archival and educational for Git; there is no application with its own logic to highlight.
 
-Puntos de entrada al código:
+Code entry points:
 
 - [`testa/miArchivo.txt`](testa/miArchivo.txt)
 - [`testb/miArchivo.txt`](testb/miArchivo.txt)
 
 <!-- END project-context -->
 
-## Contenido
+## Contents
 
-| Directorio | Función |
+| Directory | Function |
 | --- | --- |
-| [`testa/`](testa/) | Repositorio mínimo de prueba que solo contiene miArchivo.txt, sin código de aplicación ni manifiestos de construcción. |
-| [`testb/`](testb/) | Repositorio mínimo de prueba que solo contiene miArchivo.txt, sin código de aplicación ni manifiestos de construcción. |
+| [`testa/`](testa/) | Minimal test repository containing only miArchivo.txt, with no application code or build manifests. |
+| [`testb/`](testb/) | Minimal test repository containing only miArchivo.txt, with no application code or build manifests. |
 
 
 
-## Requisitos y preparación
+## Requirements and setup
 
-Archivos de texto; sin aplicación ejecutable.
+Text files; no executable application.
 
-Esta es una copia histórica. Consultar los archivos de proyecto y los README de cada componente para sus versiones y dependencias. Restaurar NuGet/npm desde la carpeta correspondiente; las bibliotecas internas pueden necesitar reconstrucción. Preparar las bases de datos y los servicios externos con cuentas propias.
+This is a historical copy. Consult each component's project files and README for versions and dependencies. Restore NuGet/npm from the appropriate folder; internal libraries may need rebuilding. Prepare databases and external services using your own accounts.
 
-## Configuración y seguridad
+## Configuration and security
 
-Los secretos originales se han eliminado o sustituido por `REPLACE_WITH_YOUR_VALUE`. Buscar este marcador antes de ejecutar y aportar los valores mediante configuración local o variables de entorno. Las sesiones, claves privadas, certificados de firma, bases de datos, registros, perfiles de despliegue y paquetes binarios no se publican. El `.gitignore` protege estos archivos locales.
+Original secrets have been removed or replaced with `REPLACE_WITH_YOUR_VALUE`. Search for this marker before running and provide values through local configuration or environment variables. Sessions, private keys, signing certificates, databases, logs, deployment profiles, and binary packages are not published. The `.gitignore` protects these local files.
 
-Se publica un historial nuevo: los commits antiguos permanecen únicamente en la copia local original. Los valores de ejemplo no permiten conectarse a los servicios originales.
+A fresh history is published: old commits remain only in the original local copy. Example values cannot connect to the original services.
 
-## Estado de validación
+## Validation status
 
-Se realizó una revisión estática y un escaneo de secretos antes de publicar. No se ejecutaron aplicaciones, operaciones de trading, despliegues ni pruebas que contacten servicios externos. No se garantiza la compilación con herramientas actuales. Algunos proyectos necesitan dependencias históricas y activos que no están incluidos.
+A static review and secret scan were performed before publication. Applications, trading operations, deployments, and tests contacting external services were not run. Building with current tools is not guaranteed. Some projects need historical dependencies and assets that are not included.
 
-## Licencias y procedencia
+## Licenses and provenance
 
-Se conservan las licencias y atribuciones de terceros presentes en el código. No se añade una licencia global a los componentes que no la tenían. Esta importación conserva fuentes locales y no afirma ser una versión actual del proyecto original.
+Third-party licenses and attributions present in the code are retained. No blanket license is added to components that lacked one. This import preserves local sources and does not claim to be a current version of the original project.

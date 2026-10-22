@@ -1,55 +1,57 @@
+**Languages:** [English](Readme.md) · [Español](README.es.md)
+
 # testb
 
-Repositorio mínimo de prueba que solo contiene miArchivo.txt, sin código de aplicación ni manifiestos de construcción.
+Minimal test repository containing only miArchivo.txt, with no application code or build manifests.
 
-Documentación basada en los archivos locales revisados el 21 de octubre de 2026.
+Documentation based on local files reviewed on 21 October 2026.
 
 <!-- BEGIN project-context -->
 
-## Antigüedad y evidencia
+## Historical dates and evidence
 
-**Año de referencia de esta versión: 2016.** Se toma el archivo de código o configuración más reciente con una fecha histórica recuperable; no se ha podido confirmar la fecha exacta de creación.
+**Reference year for this version: 2016.** This uses the most recent source or configuration file with a recoverable historical date; the exact creation date could not be confirmed.
 
-- Archivo más reciente datable: **2016-07-09**, [`testb/miArchivo.txt`](miArchivo.txt); fecha del commit que modificó el archivo, recuperada del Git local.
-- Primer registro del repositorio Git original que contiene este código: **2016-07-09**. Puede corresponder a una importación; no prueba cuándo se escribió por primera vez.
+- Most recent datable file: **2016-07-09**, [`testb/miArchivo.txt`](miArchivo.txt); date of the commit modifying the file, recovered from local Git history.
+- First record in the original Git repository containing this code: **2016-07-09**. This may be an import and does not establish when the code was first written.
 
-Se descartaron las marcas de tiempo de la copia de octubre de 2026 y los documentos generados durante esta revisión. Las fechas recuperables no garantizan que no existan cambios posteriores sin datar.
+October 2026 copy timestamps and documents generated during this review were excluded. Recoverable dates do not guarantee that there are no later, undated changes.
 
-## Por qué merece la pena mirarlo
+## Why this is worth exploring
 
-Es otra prueba mínima de repositorio con un archivo de texto. Permite conservar la pista del experimento de Git, con poco contenido técnico para explorar como proyecto independiente.
+Another minimal repository experiment with a text file. It preserves a record of a Git experiment, with little technical content to explore as an independent project.
 
-Puntos de entrada al código:
+Code entry points:
 
 - [`miArchivo.txt`](miArchivo.txt)
 
 <!-- END project-context -->
 
-## Estructura y responsabilidades
+## Structure and responsibilities
 
-| Ruta | Responsabilidad |
+| Path | Responsibility |
 | --- | --- |
-| `miArchivo.txt` | Único archivo de trabajo original. |
+| `miArchivo.txt` | Only original working file. |
 
-## Tecnologías y requisitos
+## Technologies and requirements
 
-No se identifica un entorno de ejecución.
+No runtime environment was identified.
 
-## Preparación y arranque
+## Setup and startup
 
-No hay aplicación para compilar o arrancar en esta copia.
+There is no application to build or start in this copy.
 
-## Configuración e integraciones
+## Configuration and integrations
 
-No se encontraron archivos de configuración propios.
+No project-specific configuration files were found.
 
-## Estado de esta copia
+## Status of this copy
 
-No se infiere una relación funcional con testa más allá de su estructura similar.
+No functional relationship to testa is inferred beyond a similar structure.
 
-La revisión fue estática: no se restauraron dependencias, no se compiló ni se ejecutaron aplicaciones o pruebas. Los comandos anteriores son instrucciones de preparación, no resultados de validación. Las versiones indicadas son las del código conservado.
+The review was static: dependencies were not restored, and applications and tests were neither built nor run. The commands above are setup instructions, not validation results. Listed versions describe the preserved code.
 
 
-## Copia pública
+## Public copy
 
-Las credenciales originales se han retirado o sustituido por `REPLACE_WITH_YOUR_VALUE`. Los datos locales, sesiones, certificados privados y perfiles de despliegue se omiten. Configurar servicios y credenciales propios antes de ejecutar. La compilación y el funcionamiento con servicios externos no se han validado.
+Original credentials have been removed or replaced with `REPLACE_WITH_YOUR_VALUE`. Local data, sessions, private certificates, and deployment profiles are omitted. Configure your own services and credentials before running. Building and operation with external services have not been validated.
